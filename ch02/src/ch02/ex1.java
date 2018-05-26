@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex1 {
 	public static void main(String[] args) {
+		
 		//1. Scanner를 이용해서 2자리 정수를 입력받으세요.
 		Scanner Scan = new Scanner(System.in);
 		
@@ -34,5 +35,6 @@ public class ex1 {
 		/*System.out.printf("\t3번째 방법!%n");*/
 		System.out.printf("10진수 : %d%n8진수 : %o%n16진수 : %x%n", Num, Num, Num);
 		
+	
 	} 
 }

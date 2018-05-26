@@ -10,16 +10,16 @@ public class Ch02Ex02_09 {
 		
 		System.out.printf("");
 		String i1 = scanner.nextLine();
-		double a = Double.parseDouble(i1);
+		float a = Float.parseFloat(i1);
 		
 		System.out.printf("");
 		String i2 = scanner.nextLine();
-		double b = Double.parseDouble(i2);
+		float b = Float.parseFloat(i2);
 		
 		System.out.printf("");
 		String i3 = scanner.nextLine();
 		double c = Double.parseDouble(i3);
 		
-		System.out.printf("%.3f%n%.3f%n%.3f", a, b, c);
+		System.out.printf("%.3f %n%.3f %n%.3f", a, b, c);
 	}
 }

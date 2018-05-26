@@ -17,7 +17,7 @@ public class Ch02Ex02_11 {
 		String i2 = scanner.nextLine();
 		float b = Float.parseFloat(i2);
 		
-		System.out.printf("%10.2f%10.2f%10.2f", a, b, a + b);
+		System.out.printf("%10.2f%10.2f%10.2f", a, b, a+b);
 	}
 
 }

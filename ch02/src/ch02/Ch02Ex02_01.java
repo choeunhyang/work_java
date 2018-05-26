@@ -7,18 +7,34 @@ public class Ch02Ex02_01 {
 	kor, mat, eng값은 Scanner 클래스의 nextLine()을 이용하여 입력받으세요.
 	합계와 평균은 수식을 이용하세요.*/
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
+		/*
+		 // 1)
+		 System.out.printf("");
+		 // 1. scanner를 이용하여 성적 문자열로 입력받기(세번입력)
+		 String k = scan.nextLine();
+		 String m = scan.nextLine();
+		 String e = scan.nextLine();
+		 
+		 // 2. 문자열로 입력받은 성적을 정수(int)형으로 변경
+		 int kor = Integer.parseInt(k);
+		 int mat = Integer.parseInt(m);
+		 int eng = Integer.parseInt(e);
+		 */
+		
+		//2)
 		System.out.printf("kor의 점수를 입력하시오. >");
-		String k = scanner.nextLine();
+		String k = scan.nextLine();
 		int kor = Integer.parseInt(k);
+		//String kor = scan.nextInt();
 		
 		System.out.printf("met의 점수를 입력하시오. >");
-		String m = scanner.nextLine();
+		String m = scan.nextLine();
 		int mat = Integer.parseInt(m);
 		
 		System.out.printf("eng의 점수를 입력하시오. >");
-		String e = scanner.nextLine();
+		String e = scan.nextLine();
 		int eng = Integer.parseInt(e);
 			
 		int sum = kor + mat + eng;

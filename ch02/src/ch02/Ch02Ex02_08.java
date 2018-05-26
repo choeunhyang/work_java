@@ -20,7 +20,7 @@ public class Ch02Ex02_08 {
 		String c = scanner.nextLine();
 		String c1 = c;
 		
-		System.out.printf("%.2f%n%f.2%n", a, b);
+		System.out.printf("%.2f%n%.2f%n", a, b);
 		System.out.println(c1);
 	}
 }

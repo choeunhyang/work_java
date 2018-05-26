@@ -8,12 +8,12 @@ public class Ch02Ex02_06 {
 	첫째자리까지 출력하시오.*/
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		//System.out.printf("야드의 값을 입력하시오.>>");
+		System.out.printf("야드의 값을 입력하시오.>>");
 		System.out.printf("");
 		String i1 = scanner.nextLine();
 		float a = Float.parseFloat(i1);
 		
-		//System.out.printf("인치의 값을 입력하시오.>>");
+		System.out.printf("인치의 값을 입력하시오.>>");
 		System.out.printf("");
 		String i2 = scanner.nextLine();
 		float b = Float.parseFloat(i2);
