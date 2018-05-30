@@ -17,7 +17,7 @@ public class Ex13 {
 		Test t = new Test();
 		
 		System.out.println(t.a);//false
-		System.out.println(t.b); //Null 문자
+		System.out.println(t.b);//Null 문자
 		System.out.println(t.c);//0.0
 		System.out.println(t.d);//0
 		System.out.println(t.e);//0

@@ -4,6 +4,7 @@ public class Ex05 {
 	public static void main(String[] args) {
 		int If = 0;
 		System.out.println("1"+"2");//12
+		System.out.println('1'+'2');//99
 		System.out.println(true + "");//true
 		System.out.println('A' + 'B');//65+66
 		System.out.println('1' + 2);//49+2

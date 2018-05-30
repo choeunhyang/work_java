@@ -6,7 +6,7 @@ class CastingEx4 {
 		float f = (float)i;	// int를 float로 형변환
 		int i2 = (int)f;	// float를 다시 int 로 형변환
 		
-		double d= (double)i;	// int를 double로 형변환
+		double d= (double)i;		// int를 double로 형변환
 		int i3 = (int)d;			// double을 다시 int로 형변환
 		
 		float f2 = 1.666f;

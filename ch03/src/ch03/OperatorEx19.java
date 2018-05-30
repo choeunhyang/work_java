@@ -1,6 +1,6 @@
 package ch03;
 
-public class OpreatorEx19 {
+public class OperatorEx19 {
 	public static void main(String[] args) {
 		// 나머지 연산자 %
 		// 연산자 우선순위는 사칙연산과 동일
