@@ -30,7 +30,7 @@ public class FlowEx07 {
 
 		case 0:
 			System.out.println("비겼습니다.");
-			//break; //마짐가 문장이므로 break를 사용할 필요가 없다.
+			//break; //마지막 문장이므로 break를 사용할 필요가 없다.
 		}
 	}
 
