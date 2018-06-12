@@ -8,7 +8,8 @@ public class Ch04Ex01_07 {
 		Scanner sc = new Scanner(System.in);
 		String a = sc.nextLine();
 		char i = a.charAt(0);
-		
+		//case "A": 이걸로 해도 된다.<-문자열
+		//case 'A': <-문자
 		if(i == 'A') {
 			System.out.println("Excellent");
 		}else if(i == 'B') {

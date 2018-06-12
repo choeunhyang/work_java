@@ -13,12 +13,14 @@ public class Ch04Ex02_04 {
 				sum = sum + a;
 				count += 1;
 			}else if(a>=100) {
+				//입력받은 숫자 더하기
 				sum = sum + a;
-				count += 1;
+				//카운트 증가
+				count++;
 				System.out.printf("%d \n%.1f", (int)sum, (float)(sum / count));
 				break;
-				
 			}
 		}while(true);
 	}
 }
+

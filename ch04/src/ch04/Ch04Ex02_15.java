@@ -11,11 +11,29 @@ public class Ch04Ex02_15 {
 		int i = 0;
 		int j = 0;
 		for(i = 1; i <= b+(b-1); i++) {
-			for(j=i;;j++) {
-				System.out.println("*");
+			if(i<=b) {
+				for(j=1;j<=i;j++) {
+					System.out.print("*");
+				}
+			}else{
+				for(j=i-2;j>=1;j--) {
+					System.out.print("*");
+				}
 			}
+			System.out.println();
 		}
-			
-	}
-
+	/*	do {
+			for(i = 1; i <= b+(b-1); i++) {
+				if(i<=b) {
+					for(j=1;j<i;j++) {
+						System.out.print("*");
+					}
+				}
+				for(j=i-2;j>1;j--) {
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+	}while(i<=b);*/
+}
 }
