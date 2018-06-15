@@ -14,6 +14,8 @@ public class Ch04Ex02_13 {
 		int j = 0;
 		int z = 0;
 		
+		
+		
 		for(i = 1; i <= b1; i++) {
 			z += 1;
 			for(j = 1; j<=b2; j++){

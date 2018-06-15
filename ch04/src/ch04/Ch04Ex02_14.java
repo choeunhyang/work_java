@@ -15,11 +15,11 @@ public class Ch04Ex02_14 {
 		for(j = 1; j <= 9; j++) {
 			if (b1<b2) {
 				for(i = b1; i <= b2; i++) {
-					System.out.printf("%d * %d =  %-4d", i, j, i*j);
+					System.out.printf("%d * %d = %-4d", i, j, i*j);
 				}
 			}else if(b1>b2) {
 				for(i = b1; i >= b2; i--) {
-					System.out.printf("%d * %d =  %-4d", i, j, i*j);
+					System.out.printf("%d * %d = %-4d", i, j, i*j);
 				}
 			}
 			System.out.println();
