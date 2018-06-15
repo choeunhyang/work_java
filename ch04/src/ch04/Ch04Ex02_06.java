@@ -27,7 +27,10 @@ public class Ch04Ex02_06 {
 				System.out.println("none");
 				break;
 			}
+//			if (a <= 4 && a >= 1)
 		}while(a <= 4 && a >= 1);
+		
+		//5. 특정조건(flag값이 true일때)에 while문 반복 끝내기
 	}
 
 }
