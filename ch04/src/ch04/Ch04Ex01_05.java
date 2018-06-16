@@ -14,7 +14,7 @@ public class Ch04Ex01_05 {
 		if (b1>=4.0 && b2>=4.0) {
 			System.out.println("A");
 		}else if (b1>=3.0 && b2>=3.0) {
-			System.out.println("B");
+			System.out.println("B"); 
 		}else {
 			System.out.println("C");
 		}
