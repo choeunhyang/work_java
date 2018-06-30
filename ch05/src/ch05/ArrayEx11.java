@@ -16,7 +16,7 @@ public class ArrayEx11 {
 			counter[numArr[i]]++;
 		}
 		
-		for(int i=0; i < numArr.length; i++) {
+		for(int i = 0; i < numArr.length; i++) {
 			System.out.println(i + "의 개수 : "+counter[i]);
 		}
 	}//main end

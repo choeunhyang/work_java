@@ -1,5 +1,5 @@
 package ch07;
-class Tv {
+class Tv2 {
 	boolean power;	// 전원상태(on/off)
 	int channel;	// 채널
 	
@@ -18,7 +18,7 @@ class VCR{
 	void ff()   { /*내용생략*/ }
 }
 
-class TVCR extends Tv{		// 상속관계
+class TVCR extends Tv2{		// 상속관계
 	VCR vcr = new VCR();	// 포함관계
 	int counter = vcr.counter;
 	void play() {
