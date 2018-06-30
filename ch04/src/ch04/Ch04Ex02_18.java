@@ -8,10 +8,8 @@ public class Ch04Ex02_18 {
 		String a = sc.nextLine();
 		int num = Integer.parseInt(a);	
 		//int num = Integer.parseInt(scanner.nextLine());
-<<<<<<< HEAD
-=======
+
 		int c = 0;
->>>>>>> branch 'master' of https://github.com/choeunhyang/work_java.git
 		//틀 작성
 		for(int i = 0; i < num+(num-1); i++) {
 			if (i < num){
