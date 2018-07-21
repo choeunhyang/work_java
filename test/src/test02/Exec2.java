@@ -1,10 +1,17 @@
 package test02;
 
 public class Exec2 {
-	public static void main(String[] args) {
-		Action a = new Person("È«±æµ¿",33);
+	public static void printObject(Action a) {
 		a.run();
 		a.walk();
 		a.sleep();
+	}
+	public static void main(String[] args) {
+		Action a = new Person("È«±æµ¿",33);
+		printObject(a);
+		Cat c = new Cat("µ¿µ¿ÀÌ",5);
+		printObject(c);
+		Dog d= new Dog("¸Û¸ÛÀÌ",2);
+		printObject(d);
 	}
 }
